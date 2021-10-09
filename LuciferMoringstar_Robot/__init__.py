@@ -28,14 +28,14 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  Auto Filter V4
     
-➥ Creator : [Alif Muhammed](
+➥ Creator : [Naughtyland](
 https://t.me/noughtyland)
 
-➥ Language : Python3
+➥ Language : Python4
 
-➥ Library : Pyrogram Asyncio 1.13.0
+➥ Library : herokuapp.com 
 
 ➥ source code : [Click here](https://t.me/suorcecode)
 """
