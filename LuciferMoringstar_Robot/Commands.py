@@ -115,10 +115,10 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton("Search HERE ", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("ME", callback_data="about")
                 ]]
             )
         )
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('our official channel', url=f'https://t.me/nougtyoffocialchannel')
+            InlineKeyboardButton('⭕our official channel⭕', url=f'https://t.me/nougtyoffocialchannel')
         ]
         ]
-    await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text=f"{ME}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
