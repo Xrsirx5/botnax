@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('our main channel', url=f'https://t.me/noughtylandmovie')
+                    InlineKeyboardButton('⚜our main channel⚜', url=f'https://t.me/noughtylandmovie')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('our group', url=f'https://t.me/noughtyland')
+                        InlineKeyboardButton('🔰our group🔰', url=f'https://t.me/noughtyland')
                     ]
                     ]
                 
