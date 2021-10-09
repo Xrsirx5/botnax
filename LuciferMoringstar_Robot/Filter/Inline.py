@@ -89,7 +89,7 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('our main channel', url=f'https://t.me/noughtylandmovie')
+        InlineKeyboardButton('❗our main channel❗', url=f'https://t.me/noughtylandmovie')
         ],[
         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
         ]]
